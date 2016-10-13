@@ -1,0 +1,11 @@
+<div *ngIf="task != null">
+  <h2>{{task.taskName}}</h2>
+  <div><label>Date: </label>{{task.date}}</div>
+  <div><label>Time: </label>{{task.time}}</div>
+  <div>
+      <label>Task: </label>
+      <input [(ngModel)]="task.taskName" placeholder="name">
+  </div>
+  <button (click)="goBack()">Back</button>
+
+</div>
