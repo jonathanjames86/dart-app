@@ -4,6 +4,7 @@ import 'dart:async';
 import 'package:angular2/core.dart';
 import 'package:firebase3/firebase.dart' as fb;
 
+//basic setup
 @Injectable()
 class FirebaseService {
   fb.Auth _fbAuth;
